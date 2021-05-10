@@ -239,3 +239,13 @@ footer .crf-footer--copyright {text-align: center; font-size: 12px; flex: 0 0 75
     .crf-full-banner {order: 5; margin-top: 0;}
     footer {order: 7;}
 }
+
+.calculator {
+    margin: 100px;
+}
+.col {
+    padding: 16px;
+    margin-right: 24px;
+    display: inline;
+    max-width: 150px;
+   }

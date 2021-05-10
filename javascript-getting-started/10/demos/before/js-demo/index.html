@@ -74,6 +74,43 @@
                 </div><img alt="Grey Boots" class="order-sm-1 order-md-2" src="https://www.pluralsight.com/content/dam/pluralsight2/teach/author-tools/carved-rock-fitness/img-greyboots.jpg"></div>
         </div>
     </div>
+<div class="container calculator">
+    <div class="row">
+        <label for="a" class="col-sm-3">First Operand</label>
+        <label for="b" class="col-sm-3">Second Operand</label>
+        <label for="operation" class="col-sm-3">Operation</label>
+        <label for="result" class="col-sm-3">Result</label>
+    </div>
+    <div class="row">
+        <input id="a" type="number" placeholder="a" class="col-sm-3">
+        <input id="b" type="number" placeholder="b" class="col-sm-3">
+        <select id="operation" onchange="onSelect(event)" class="col-sm-3">
+            <option label="Select operator " value=" " ></option>
+            <option label="+" value="+" ></option>
+            <option label="-" value="-"></option>
+            <option label="*" value="*"></option>
+            <option label="/" value="/"></option>
+        </select>
+        <span id="result" class="col-sm-3"></span>
+    </div>
+</div>
+<!--    <div class="container calculator">-->
+<!--            <label for="a" class="col">First Operand</label>-->
+<!--            <input id="a" type="number" placeholder="a" class="col">-->
+<!--            <label for="b" class="col">Second Operand</label>-->
+<!--            <input id="b" type="number" placeholder="b" class="col">-->
+<!--            <label for="operation">Operation</label>-->
+<!--            <select id="operation" onchange="onSelect(event)" class="col">-->
+<!--                <option label="Select operator " value=" " ></option>-->
+<!--                <option label="+" value="+" ></option>-->
+<!--                <option label="-" value="-"></option>-->
+<!--                <option label="*" value="*"></option>-->
+<!--                <option label="/" value="/"></option>-->
+<!--            </select>-->
+<!--            <label for="result" class="col">Result</label>-->
+<!--            <span id="result"></span>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <!-- STORIES -->
     <div class="container crf-story">
@@ -209,6 +246,7 @@
 
 <script src="./utils.js"></script>
 <script src="./home.js"></script>
+<script src="new.js"></script>
 
 </body>
 </html>
